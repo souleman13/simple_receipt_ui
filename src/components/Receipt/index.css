@@ -19,6 +19,15 @@
     margin-top: 1em;
 }
 
-.itemLine {
-    
+.itemPrice {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.total {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
