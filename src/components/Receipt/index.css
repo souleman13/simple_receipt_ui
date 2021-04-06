@@ -1,4 +1,6 @@
 .receipt {
+    border: 1px solid white;
+    padding: 1vmin;
     width: 25vmin;
     font-size: calc(5px + 1vmin);
     display: flex;

@@ -56,8 +56,7 @@ const Receipt = () => {
     }, [])
 
     return (
-        <div >
-            <div className='receipt'>
+        <div className='receipt'>
                 {state ? <div>{Object.keys(state).map(key => typeof state[key] === typeof [] ?
                     <div key={key} className='itemList'>
                         <div>Items:</div>
@@ -70,7 +69,6 @@ const Receipt = () => {
                         <div className='total'><span>Total:</span><span>{state.Total}</span></div>
                     </div> : <div key={key} className='receiptLine'><span>{key}:</span><span>{`${state[key]}`}</span></div>
                 )}</div> : 'loading...'}
-            </div>
         </div>
     )
 }
