@@ -1,0 +1,24 @@
+.receipt {
+    width: 25vmin;
+    font-size: calc(5px + 1vmin);
+    display: flex;
+    flex-direction: column;
+}
+
+.receiptLine {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.itemList {
+    margin-top: 1em
+}
+
+.item {
+    margin-top: 1em;
+}
+
+.itemLine {
+    
+}
